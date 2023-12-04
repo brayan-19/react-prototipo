@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-form {
+  background-color: aquamarine;
+  width: 25%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  width: 100%;
+  height: 15px;
+  padding: 3px;
+  outline: none;
+  border-radius: 10px;
+  border: 0;
+}
+
+button {
+  width: 100%;
+}
+

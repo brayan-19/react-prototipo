@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import Formulario from "./formulario";
+import Message from "./message";
+import Componente from "./Componente";
 
-function App() {
-  return (
+
+
+function App(){
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Message name={'brayan'}/>
+      <Formulario/>
+      <Componente/>
     </div>
   );
 }
-
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
